@@ -1,0 +1,63 @@
+Data Structures
+1. Why are data structures useful in programming?
+
+    Data structures in Ruby allow you to handle, organize, and keep track of
+    large collections of data and variables.
+
+Arrays
+2. Define "array" and describe the characteristics of an array.
+
+    An array is an object that can store a list or collection of other objects.
+    An array consists of a variable name assignment, which will evaluate to
+    a list of object nested inside of square brackets. Each item is delimited by
+    a comma. You can evaluate objects inside of an array by accessing its index.
+
+3. Give two original examples of data sets that an array might be well-suited for.
+
+    ex.1: A variable titled 'primary_colors', which evaluates to an array of strings
+    denoting containing the RGB colors as strings.
+      e.g.: primary_colors = ["red", "green", "blue"]
+
+    ex.2: A variable titled 'soft_drinks' which evaluates to an array of strings
+    denoting popular soft drinks.
+      e.g.: soft_drinks = ["Coca-Cola", "Pepsi", "Sprite", "Dr. Pepper"]
+
+Hashes
+4. Define "hash" and describe the characteristics of a hash.
+
+    A Hash is a data structure that holds data in the form of key and value
+    pairs. The data is housed between curly braces ({}).
+
+5. Give two original examples of data sets that a hash might be well-suited for.
+
+    ex.1: Application data which accepts information about a person, i.e. name,
+    age, location, etc.
+      e.g.: application = {name: "Chris Grace", age: "immortal", location: "Earth"}
+    ex.2: Items in a different rooms of a house.
+      e.g.:
+      house = {
+      'living room' => ['sofa', 'TV', 'coffee table'],
+      'bedroom' => ['bed', 'dresser', 'lamp']
+      }
+
+Iteration
+6. Why is iteration useful?
+
+    Iteration is useful because it allows you to access and evaluate each object
+    in a data structure individually with a single block of code.
+
+7. Give an example of a real-life task that would require iteration if you wrote an algorithm for it.
+
+    An online form that allows a user to update information they have entered
+    previously (e.g. address).
+
+Blocks
+8. What is a block?
+    A "block", in Ruby, is a block of code that can be used as a 'mini-program'
+    and typically is used to iterate on a data structure.
+
+9. What is a block parameter, and where does its value come from?
+    A block parameter is a 'variable' that can be used within a block to take
+    data from elsewhere and run it through the block itself. The data that takes
+    the code being run within the block via this parameter comes from the method
+    you are calling.

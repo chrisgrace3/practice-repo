@@ -1,13 +1,18 @@
-def tanslate_char(char)
-  char
+letters = ["a","b","c","d", "e"]
+
+puts "Original data:"
+p letters
+
+# iterate through the array with .each
+letters.each do |letter|
+  puts letter
 end
 
-def translate_phrase(phrase)
-  char_index = 0
-  while char_index < phrase.length
-    puts phrase[char_index]
-    char_index += 1
-  end
-end
+puts "After .each call:"
+p letters
 
-translate_phrase("Happy Halloween!")
+#####
+
+numbers = {1 => 'one', 2 => 'two', 3 => 'three'}
+
+# iterate through the hash with .each
