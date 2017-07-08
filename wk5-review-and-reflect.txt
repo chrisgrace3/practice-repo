@@ -9,31 +9,33 @@ Arrays
 
     An array is an object that can store a list or collection of other objects.
     An array consists of a variable name assignment, which will evaluate to
-    a list of object nested inside of square brackets. Each item is delimited by
-    a comma. You can evaluate objects inside of an array by accessing its index.
+    a list of object nested inside of square brackets. Each item is separated by
+    a comma. You can evaluate an object inside of an array by accessing its index.
 
 3. Give two original examples of data sets that an array might be well-suited for.
 
-    ex.1: A variable titled 'primary_colors', which evaluates to an array of strings
-    denoting containing the RGB colors as strings.
+    ex.1: A variable titled 'primary_colors' that evaluates to an array
+    containing the RGB colors as strings.
       e.g.: primary_colors = ["red", "green", "blue"]
 
-    ex.2: A variable titled 'soft_drinks' which evaluates to an array of strings
+    ex.2: A variable titled 'soft_drinks' that evaluates to an array of strings
     denoting popular soft drinks.
       e.g.: soft_drinks = ["Coca-Cola", "Pepsi", "Sprite", "Dr. Pepper"]
 
 Hashes
 4. Define "hash" and describe the characteristics of a hash.
 
-    A Hash is a data structure that holds data in the form of key and value
-    pairs. The data is housed between curly braces ({}).
+    A Hash is a data structure that contains data in the form of key and value
+    pairs. These key/value pairs are housed between curly braces ({}) and are
+    separated each separated by commas.
 
 5. Give two original examples of data sets that a hash might be well-suited for.
 
-    ex.1: Application data which accepts information about a person, i.e. name,
-    age, location, etc.
+    ex.1: Application data which pulls from a form that accepts information
+    about a person, i.e. name, age, location, etc.
       e.g.: application = {name: "Chris Grace", age: "immortal", location: "Earth"}
-    ex.2: Items in a different rooms of a house.
+
+    ex.2: Items in different rooms of a house.
       e.g.:
       house = {
       'living room' => ['sofa', 'TV', 'coffee table'],
@@ -54,7 +56,7 @@ Iteration
 Blocks
 8. What is a block?
     A "block", in Ruby, is a block of code that can be used as a 'mini-program'
-    and typically is used to iterate on a data structure.
+    that typically is used to iterate on a data structure.
 
 9. What is a block parameter, and where does its value come from?
     A block parameter is a 'variable' that can be used within a block to take
